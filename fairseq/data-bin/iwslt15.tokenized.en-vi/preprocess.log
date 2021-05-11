@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, azureml_logging=False, bf16=False, bpe='subword_nmt', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='data-bin/iwslt15.tokenized.en-vi', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=True, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, reset_logging=False, scoring='bleu', seed=1, simul_type=None, source_lang='en', srcdict=None, suppress_crashes=False, target_lang='vi', task='translation', tensorboard_logdir=None, testpref='./data_bpe/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='./data_bpe/train', user_dir=None, validpref='./data_bpe/valid', wandb_project=None, workers=20)
+[en] Dictionary: 10344 types
+[en] ./data_bpe/train.en: 133137 sents, 3227437 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 10344 types
+[en] ./data_bpe/valid.en: 1553 sents, 33299 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 10344 types
+[en] ./data_bpe/test.en: 1268 sents, 32007 tokens, 0.00312% replaced by <unk>
+[vi] Dictionary: 10344 types
+[vi] ./data_bpe/train.vi: 133137 sents, 3569023 tokens, 0.0% replaced by <unk>
+[vi] Dictionary: 10344 types
+[vi] ./data_bpe/valid.vi: 1553 sents, 37118 tokens, 0.00539% replaced by <unk>
+[vi] Dictionary: 10344 types
+[vi] ./data_bpe/test.vi: 1268 sents, 36453 tokens, 0.00549% replaced by <unk>
+Wrote preprocessed data to data-bin/iwslt15.tokenized.en-vi
